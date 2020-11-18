@@ -32,12 +32,11 @@
                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                 </GridPane.margin>
             </TextField>
-            <PasswordField fx:id="idTextContrasena" GridPane.columnIndex="1" GridPane.rowIndex="1" >
+            <PasswordField fx:id="idTextContrasena" GridPane.columnIndex="1" GridPane.rowIndex="1">
                 <GridPane.margin>
                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                 </GridPane.margin>
             </PasswordField>
-            <Label fx:id="idLabelMostrar" alignment="CENTER" text="Mostrar Contraseña" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label fx:id="idLabelMostrar" alignment="CENTER" onMouseEntered="#onMostarEntered" onMouseExited="#onMostarExited" text="Mostrar Contraseña" GridPane.columnIndex="1" GridPane.rowIndex="2" />
          </children>
 </GridPane>
-
